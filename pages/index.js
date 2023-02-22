@@ -1,10 +1,16 @@
 import {
   Container,
-  Box, Heading,
+  Box,
+  Heading,
   Image,
-  useColorModeValue
+  useColorModeValue,
+  Link,
+  Button
 } from '@chakra-ui/react'
+import { ChevronRightIcon } from '@chakra-ui/icons'
 import Section from '../components/section'
+import Paragraph from '../components/paragraph'
+import { BioSection, BioYear } from '../components/bio'
 
 const Page = () => {
   return (
@@ -41,9 +47,48 @@ const Page = () => {
         <Heading as="h3" variant="section-title">
           Work
         </Heading>
-        <p>
-          Paragraph
-        </p>
+        <Paragraph>
+          What&lsquo;s Good! I&apos;m a recent Hack Reactor Graduate.
+          I&apos;m currently working @ Galvanize as a Software Engineering Immersive Resident!
+          I&#39;m currently based in California.
+          <br/><br/>
+          I&#39;m currently looking for a Software Engineering job!
+        </Paragraph>
+        <Box align="center" my={4}>
+          <Link href="/works" />
+          <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
+            My Portfolio
+          </Button>
+        </Box>
+      </Section>
+      <Section delay={.4}>
+        <Heading as="h3" variant="section-title">
+          Bio
+        </Heading>
+        <BioSection>
+          <BioYear>January 1996</BioYear>
+          Born in California.
+        </BioSection>
+        <BioSection>
+          <BioYear>January 2023</BioYear>
+          Complete Hack Reactor&#39;s 12-Week SWE Bootcamp
+        </BioSection>
+        <BioSection>
+          <BioYear>January 2023 - Present</BioYear>
+          Lead Software Engineering Immersive Resident
+        </BioSection>
+        <BioSection>
+          <BioYear>Present</BioYear>
+          In search of a software engineering job. Send Help.
+        </BioSection>
+      </Section>
+      <Section delay={0.6}>
+        <Heading as="h3" variant="section-title">
+          I ♡
+        </Heading>
+        <Paragraph>
+          Rollerblading, Juggling, Slacklining, Board Games, Reading, Soccer, Tennis, Climbing, Science
+        </Paragraph>
       </Section>
     </Container>
   )
