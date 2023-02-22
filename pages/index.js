@@ -8,6 +8,7 @@ const Page = () => {
       <Box display={{ md: 'flex'}}>
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title">
+            Andrew Heim
           </Heading>
           <p>Digital Creator ( Videographer / Developer )</p>
         </Box>
