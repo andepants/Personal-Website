@@ -84,7 +84,7 @@ const Page = () => {
       </Section>
       <Section delay={0.6}>
         <Heading as="h3" variant="section-title">
-          I ♡
+          I ♥
         </Heading>
         <Paragraph>
           Rollerblading, Juggling, Slacklining, Board Games, Reading, Soccer, Tennis, Climbing, Science
