@@ -29,7 +29,7 @@ export const WorkGridItem = ({ children, id, title, thumbnail }) => (
         className="grid-item-thumbnail"
         placeholder="blur"
       />
-        <Text mt={2} fontsize={20}>
+        <Text mt={2} fontSize={20}>
           {title}
         </Text>
       <Text fontSize={14}>{children}</Text>
