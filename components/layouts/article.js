@@ -12,6 +12,7 @@ const Layout = ({ children, title }) => {
   const t = `${title} - Andrew Heim`
   return (
     <motion.article
+      mode='wait'
       initial="hidden"
       animate="enter"
       exit="exit"
