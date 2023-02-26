@@ -5,13 +5,20 @@ import {
   Image,
   useColorModeValue,
   Link,
-  Button
+  Button,
+  List,
+  ListItem,
+  Icon
 } from '@chakra-ui/react'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
+import {
+  IoLogoGithub,
+  IoLogoLinkedin
+} from 'react-icons/io5'
 
 const Page = () => {
   return (
@@ -92,6 +99,24 @@ const Page = () => {
           <Paragraph>
             Rollerblading, Juggling, Slacklining, Board Games, Reading, Soccer, Tennis, Climbing, Science
           </Paragraph>
+        </Section>
+
+        <Section delay={0.8}>
+          <Heading as="h3" variant="section-title">
+            On the Web
+          </Heading>
+          <List>
+            <ListItem>
+              <Link href="https://github.com/andepants" target="_blank">
+                <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={IoLogoGithub}/>}>@andepants</Button>
+              </Link>
+            </ListItem>
+            <ListItem>
+              <Link href="https://www.linkedin.com/in/andrew-heim/" target="_blank">
+                <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={IoLogoLinkedin}/>}>@andrew-heim</Button>
+              </Link>
+            </ListItem>
+          </List>
         </Section>
       </Container>
     </Layout>
