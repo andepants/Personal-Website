@@ -8,7 +8,7 @@ function easeOutCirc(x) {
   return Math.sqrt(1 - Math.pow( x - 1, 4))
 }
 
-const terrarium = () => {
+const Terrarium = () => {
   const refContainer = useRef()
   const [loading, setLoading] = useState(true)
   const [renderer, setRenderer] = useState()
@@ -142,4 +142,4 @@ const terrarium = () => {
   )
 }
 
-export default terrarium
+export default Terrarium
