@@ -2,6 +2,7 @@ import { ChakraProvider } from '@chakra-ui/react'
 import Layout from '../components/layouts/main'
 import theme from '../lib/theme'
 import { AnimatePresence } from 'framer-motion'
+import { Analytics } from '@vercel/analytics/react'
 
 
 const Website = ({ Component, pageProps, router }) => {
@@ -10,6 +11,7 @@ const Website = ({ Component, pageProps, router }) => {
       <Layout router={router}>
         <AnimatePresence mode='wait' initial={true}>
           <Component {...pageProps} key={router.route} />
+          <Analytics />
         </AnimatePresence>
       </Layout>
     </ChakraProvider>
