@@ -32,7 +32,7 @@ const Page = () => {
             <Heading as="h2" variant="page-title">
               Andrew Heim
             </Heading>
-            <p>Digital Creator ( Videographer / Developer )</p>
+            <p>Digital Creator ( Developer / Videographer )</p>
           </Box>
           <Box
             flexShrink={0}
@@ -47,7 +47,7 @@ const Page = () => {
               maxWidth="100px"
               display="inline-block"
               borderRadius="full"
-              src="/images/andrew-face.jpg"
+              src="/images/andrew-face2.jpg"
               alt="Profile Image"
             />
           </Box>
