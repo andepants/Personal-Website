@@ -8,6 +8,7 @@ export default class Document extends NextDocument {
     return(
       <Html lang="en">
         <Head />
+        <link rel="shortcut icon" href="/images/avo_favicon.png" />
         <body>
           <ColorModeScript initialColorMode={theme.config.initialColorMode} />
           <Main />
