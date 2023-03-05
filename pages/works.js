@@ -3,7 +3,8 @@ import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 import Layout from '../components/layouts/article'
 
-import pagerThumbnail from '../public/images/works/pager.jpg'
+import pagerThumbnail from '../public/images/works/newpager.jpg'
+import sunnysideupThumbnail from '../public/images/works/sunnysideup.jpg'
 
 const Works = () => {
   return (
@@ -17,6 +18,11 @@ const Works = () => {
           <Section>
             <WorkGridItem id="pager" title="PAGER" thumbnail={pagerThumbnail}>
               A Social Media App for Ravers.
+            </WorkGridItem>
+          </Section>
+          <Section>
+            <WorkGridItem id="sunnysideup" title="Sunny Side Up" thumbnail={sunnysideupThumbnail}>
+              E-Commerce Clothing Website
             </WorkGridItem>
           </Section>
         </SimpleGrid>
