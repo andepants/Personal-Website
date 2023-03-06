@@ -71,7 +71,7 @@ const Page = () => {
             </Link>
           </Box>
         </Section>
-        <Section delay={0.4}>
+        {/*<Section delay={0.4}>
           <Heading as="h3" variant="section-title">
             Bio
           </Heading>
@@ -91,7 +91,7 @@ const Page = () => {
             <BioYear>Present</BioYear>
             In search of a software engineering job. Send Help.
           </BioSection>
-        </Section>
+  </Section> */}
         <Section delay={0.6}>
           <Heading as="h3" variant="section-title">
             I ♥
