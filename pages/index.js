@@ -14,7 +14,7 @@ import { ChevronRightIcon } from '@chakra-ui/icons'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
-import { BioSection, BioYear } from '../components/bio'
+// import { BioSection, BioYear } from '../components/bio'
 import {
   IoLogoGithub,
   IoLogoLinkedin
@@ -91,7 +91,7 @@ const Page = () => {
             <BioYear>Present</BioYear>
             In search of a software engineering job. Send Help.
           </BioSection>
-  </Section> */}
+        </Section>*/}
         <Section delay={0.6}>
           <Heading as="h3" variant="section-title">
             I ♥
