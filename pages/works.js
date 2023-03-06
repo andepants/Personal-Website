@@ -5,6 +5,7 @@ import Layout from '../components/layouts/article'
 
 import pagerThumbnail from '../public/images/works/newpager.jpg'
 import sunnysideupThumbnail from '../public/images/works/sunnysideup.jpg'
+import workinprogressThumbnail from '../public/images/works/workinprogress.jpg'
 
 const Works = () => {
   return (
@@ -23,6 +24,11 @@ const Works = () => {
           <Section>
             <WorkGridItem id="sunnysideup" title="Sunny Side Up" thumbnail={sunnysideupThumbnail}>
               E-Commerce Clothing Website
+            </WorkGridItem>
+          </Section>
+          <Section>
+            <WorkGridItem id="youtubebookmarker" title="Youtube Bookmarker" thumbnail={workinprogressThumbnail}>
+              Chrome Extension to Bookmark Timestamps in Youtube Videos
             </WorkGridItem>
           </Section>
         </SimpleGrid>
