@@ -92,7 +92,7 @@ const Page = () => {
             In search of a software engineering job. Send Help.
           </BioSection>
         </Section>*/}
-        <Section delay={0.6}>
+        <Section delay={0.4}>
           <Heading as="h3" variant="section-title">
             I ♥
           </Heading>
@@ -101,7 +101,7 @@ const Page = () => {
           </Paragraph>
         </Section>
 
-        <Section delay={0.8}>
+        <Section delay={0.6}>
           <Heading as="h3" variant="section-title">
             On the Web
           </Heading>
