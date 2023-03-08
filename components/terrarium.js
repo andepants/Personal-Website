@@ -53,7 +53,7 @@ const Terrarium = () => {
 
       // 640 -> 240
       // 8 -> 6
-      const scale = scH * 0.0005 + 4.8
+      const scale = scH * 0.0005 + 3.4
       const camera = new THREE.OrthographicCamera(
         -scale,
         scale,

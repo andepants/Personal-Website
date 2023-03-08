@@ -17,7 +17,7 @@ const LogoBox = styled.span`
 `
 
 const Logo = () => {
-  const footPrintImg = `/images/cute-avocado.png`
+  const footPrintImg = `/images/avo_favicon.png`
 
   return (
     <Link href="/">

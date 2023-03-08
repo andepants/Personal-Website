@@ -14,7 +14,7 @@ import { ChevronRightIcon } from '@chakra-ui/icons'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
-import { BioSection, BioYear } from '../components/bio'
+// import { BioSection, BioYear } from '../components/bio'
 import {
   IoLogoGithub,
   IoLogoLinkedin
@@ -32,7 +32,7 @@ const Page = () => {
             <Heading as="h2" variant="page-title">
               Andrew Heim
             </Heading>
-            <p>Digital Creator ( Videographer / Developer )</p>
+            <p>Digital Creator ( Developer / Videographer )</p>
           </Box>
           <Box
             flexShrink={0}
@@ -47,7 +47,7 @@ const Page = () => {
               maxWidth="100px"
               display="inline-block"
               borderRadius="full"
-              src="/images/andrew-face.jpg"
+              src="/images/andrew-face2.jpg"
               alt="Profile Image"
             />
           </Box>
@@ -71,7 +71,7 @@ const Page = () => {
             </Link>
           </Box>
         </Section>
-        <Section delay={0.4}>
+        {/*<Section delay={0.4}>
           <Heading as="h3" variant="section-title">
             Bio
           </Heading>
@@ -91,8 +91,8 @@ const Page = () => {
             <BioYear>Present</BioYear>
             In search of a software engineering job. Send Help.
           </BioSection>
-        </Section>
-        <Section delay={0.6}>
+        </Section>*/}
+        <Section delay={0.4}>
           <Heading as="h3" variant="section-title">
             I ♥
           </Heading>
@@ -101,7 +101,7 @@ const Page = () => {
           </Paragraph>
         </Section>
 
-        <Section delay={0.8}>
+        <Section delay={0.6}>
           <Heading as="h3" variant="section-title">
             On the Web
           </Heading>
