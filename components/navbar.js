@@ -70,7 +70,7 @@ const Navbar = props => {
               <MenuButton as={IconButton} icon={<HamburgerIcon/>}  variant="outline" aria-label="Options" />
               <MenuList>
                 <MenuItem as={Link} href="/">About</MenuItem>
-                <MenuItem as={Link} href="/Works">Works</MenuItem>
+                <MenuItem as={Link} href="/works">Works</MenuItem>
                 {/*<MenuItem as={Link} href="/Posts">Posts</MenuItem>*/}
               </MenuList>
             </Menu>
