@@ -109,7 +109,7 @@ const Page = () => {
             I ♥
           </Heading>
           <Paragraph>
-            Rollerblading, Juggling, Slacklining, Board Games, Reading, Soccer, Tennis, Climbing, Science
+            Rollerblading, Juggling, Slacklining, Board Games, Reading, Soccer, Tennis, Skiing, Calisthenics, Climbing, Science
           </Paragraph>
         </Section>
         <Section delay={0.6}>
