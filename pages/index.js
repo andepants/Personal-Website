@@ -59,11 +59,11 @@ const Page = () => {
           </Heading>
           <Paragraph>
             What&lsquo;s Good!
-            My name is Andrew and I'm excited to share a bit about myself and my journey as a software engineer. Currently based in Denver, Colorado, I'm a Software Engineering Immersive Resident at Galvanize, where I'm honing my skills and exploring the latest technologies and best practices in software development.
+            My name is Andrew and I&lsquo;m excited to share a bit about myself and my journey as a software engineer. Currently based in Denver, Colorado, I&lsquo;m a Software Engineering Immersive Resident at Galvanize, where I&lsquo;m honing my skills and exploring the latest technologies and best practices in software development.
             <br/><br/>
-            In addition to my work at Galvanize, I'm also currently working on an exciting project: a YouTube bookmarks Chrome extension. This extension will allow users to save timestamps on their favorite Youtube video for easy review and sharing!
+            In addition to my work at Galvanize, I&lsquo;m also currently working on an exciting project: a YouTube bookmarks Chrome extension. This extension will allow users to save timestamps on their favorite Youtube video for easy review and sharing!
             <br/><br/>
-            If you're looking for a passionate and skilled software engineer to join your team, I'd love to connect and learn more about your goals and vision. Let's build something amazing together!
+            If you&lsquo;re looking for a passionate and skilled software engineer to join your team, I&lsquo;d love to connect and learn more about your goals and vision. Let&lsquo;s build something amazing together!
           </Paragraph>
           <Box align="center" my={4}>
             <Link href="/works" >
