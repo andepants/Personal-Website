@@ -8,7 +8,8 @@ import {
   Button,
   List,
   ListItem,
-  Icon
+  Icon,
+  UnorderedList
 } from '@chakra-ui/react'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import Layout from '../components/layouts/article'
@@ -57,11 +58,12 @@ const Page = () => {
             Work
           </Heading>
           <Paragraph>
-            What&lsquo;s Good! I&apos;m a recent Hack Reactor Graduate.
-            I&apos;m currently working @ Galvanize as a Software Engineering Immersive Resident!
-            I&#39;m currently based in California.
+            What&lsquo;s Good!
+            My name is Andrew and I'm excited to share a bit about myself and my journey as a software engineer. Currently based in Denver, Colorado, I'm a Software Engineering Immersive Resident at Galvanize, where I'm honing my skills and exploring the latest technologies and best practices in software development.
             <br/><br/>
-            I&#39;m currently looking for a Software Engineering job!
+            In addition to my work at Galvanize, I'm also currently working on an exciting project: a YouTube bookmarks Chrome extension. This extension will allow users to save timestamps on their favorite Youtube video for easy review and sharing!
+            <br/><br/>
+            If you're looking for a passionate and skilled software engineer to join your team, I'd love to connect and learn more about your goals and vision. Let's build something amazing together!
           </Paragraph>
           <Box align="center" my={4}>
             <Link href="/works" >
@@ -93,6 +95,16 @@ const Page = () => {
           </BioSection>
         </Section>*/}
         <Section delay={0.4}>
+          <Heading>
+            Technical Skills
+          </Heading>
+          <UnorderedList>
+            <ListItem><u>Front-End:</u> JavaScript, TypeScript, React, HTML5, CSS3, Styled Components, React Native, ChakraUI, NextJS, Three.JS</ListItem>
+            <ListItem><u>Back-End:</u> Node.js, Express, MongoDB, MySQL, RESTful API, Firebase: Firestore, Hosting, Authentication</ListItem>
+            <ListItem><u>Testing/Deployment:</u> Jest, Mocha, Chai, AWS: EC2, Artillery, Loader.io</ListItem>
+          </UnorderedList>
+        </Section>
+        <Section delay={0.4}>
           <Heading as="h3" variant="section-title">
             I ♥
           </Heading>
@@ -100,7 +112,6 @@ const Page = () => {
             Rollerblading, Juggling, Slacklining, Board Games, Reading, Soccer, Tennis, Climbing, Science
           </Paragraph>
         </Section>
-
         <Section delay={0.6}>
           <Heading as="h3" variant="section-title">
             On the Web
