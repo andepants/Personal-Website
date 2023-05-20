@@ -26,7 +26,7 @@ const Page = () => {
     <Layout>
       <Container>
         <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={3} mb={6} align="center">
-          Hello, I&apos;m a full-stack developer based in California!
+          Hello, I&apos;m a full-stack developer based in Denver!
         </Box>
         <Box display={{ md: 'flex'}}>
           <Box flexGrow={1}>
@@ -59,9 +59,9 @@ const Page = () => {
           </Heading>
           <Paragraph>
             What&lsquo;s Good!
-            My name is Andrew and I&lsquo;m excited to share a bit about myself and my journey as a software engineer. Currently based in Denver, Colorado, I&lsquo;m a Software Engineering Immersive Resident at Galvanize, where I&lsquo;m honing my skills and exploring the latest technologies and best practices in software development.
+            My name is Andrew and I&lsquo;m excited to share a bit about myself and my journey as a software engineer. Currently based in Denver, Colorado.
             <br/><br/>
-            In addition to my work at Galvanize, I&lsquo;m also currently working on an exciting project: a YouTube bookmarks Chrome extension. This extension will allow users to save timestamps on their favorite Youtube video for easy review and sharing!
+            I&lsquo;m also currently working on an exciting project: an AI Gift Idea Generator This lets users type in interests/hobbies and it generates a list of gift ideas based on the user&lsquo;s input.
             <br/><br/>
             If you&lsquo;re looking for a passionate and skilled software engineer to join your team, I&lsquo;d love to connect and learn more about your goals and vision. Let&lsquo;s build something amazing together!
           </Paragraph>
@@ -99,9 +99,9 @@ const Page = () => {
             Technical Skills
           </Heading>
           <UnorderedList>
-            <ListItem><u>Front-End:</u> JavaScript, TypeScript, React, HTML5, CSS3, Styled Components, React Native, ChakraUI, NextJS, Three.JS</ListItem>
+            <ListItem><u>Front-End:</u> JavaScript, TypeScript, ReactJS, React Native, NextJS, Svelte, SvelteKit, HTML5, CSS3, Styled Components, TailwindCSS, ChakraUI, Three.JS</ListItem>
             <ListItem><u>Back-End:</u> Node.js, Express, MongoDB, MySQL, RESTful API, Firebase: Firestore, Hosting, Authentication</ListItem>
-            <ListItem><u>Testing/Deployment:</u> Jest, Mocha, Chai, AWS: EC2, Artillery, Loader.io</ListItem>
+            <ListItem><u>Testing/Deployment:</u> Jest, Mocha, Chai, Vercel, AWS: EC2, Artillery, Loader.io</ListItem>
           </UnorderedList>
         </Section>
         <Section delay={0.4}>
