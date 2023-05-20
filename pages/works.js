@@ -5,14 +5,32 @@ import Layout from '../components/layouts/article'
 
 import pagerThumbnail from '../public/images/works/newpager.jpg'
 import sunnysideupThumbnail from '../public/images/works/sunnysideup.jpg'
-import workinprogressThumbnail from '../public/images/works/workinprogress.jpg'
+import giftThumbail from '../public/images/works/gift.jpg'
+import foodTruckThumbnail from '../public/images/works/foodtruck.jpg'
 
 const Works = () => {
   return (
     <Layout>
       <Container>
         <Heading as="h3" fontSize={20} mb={4}>
-          Works
+          Deployed Works
+        </Heading>
+
+        <SimpleGrid columns={[1,1,2]} gap={6}>
+          <Section>
+            <WorkGridItem id="giftgenerator" title="AI Gift Generator" thumbnail={giftThumbail}>
+              AI Gift Idea Generator w/ ChatGPT API
+            </WorkGridItem>
+          </Section>
+          <Section>
+            <WorkGridItem id="foodtruck" title="SF Food Truck Maps" thumbnail={foodTruckThumbnail}>
+              Finds Nearby Food Trucks in SF
+            </WorkGridItem>
+          </Section>
+        </SimpleGrid>
+
+        <Heading as="h3" fontSize={20} mb={4}>
+          Other Works
         </Heading>
 
         <SimpleGrid columns={[1,1,2]} gap={6}>
@@ -24,11 +42,6 @@ const Works = () => {
           <Section>
             <WorkGridItem id="sunnysideup" title="Sunny Side Up" thumbnail={sunnysideupThumbnail}>
               E-Commerce Clothing Website
-            </WorkGridItem>
-          </Section>
-          <Section>
-            <WorkGridItem id="youtubebookmarker" title="Youtube Bookmarker" thumbnail={workinprogressThumbnail}>
-              Chrome Extension to Bookmark Timestamps in Youtube Videos
             </WorkGridItem>
           </Section>
         </SimpleGrid>
