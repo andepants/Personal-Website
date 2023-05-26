@@ -7,6 +7,7 @@ import pagerThumbnail from '../public/images/works/newpager.jpg'
 import sunnysideupThumbnail from '../public/images/works/sunnysideup.jpg'
 import giftThumbail from '../public/images/works/gift.jpg'
 import foodTruckThumbnail from '../public/images/works/foodtruck.jpg'
+import portfolioThumbnail from '../public/images/works/portfolio.jpg'
 
 const Works = () => {
   return (
@@ -20,6 +21,11 @@ const Works = () => {
           <Section>
             <WorkGridItem id="giftgenerator" title="AI Gift Generator" thumbnail={giftThumbail}>
               AI Gift Idea Generator w/ ChatGPT API
+            </WorkGridItem>
+          </Section>
+          <Section>
+            <WorkGridItem id="portfolio" title="Portfolio Calculator" thumbnail={portfolioThumbnail}>
+              Portfolio Calculator for Stocks
             </WorkGridItem>
           </Section>
           <Section>
