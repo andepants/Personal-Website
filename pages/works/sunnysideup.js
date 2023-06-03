@@ -18,7 +18,7 @@ const Work = () => {
           <ListItem>
             <Meta>Website</Meta>
             <Link href='https://github.com/Vector-Software-Engineering/sunny-side-up'>
-              https://github.com/Vector-Software-Engineering/sunny-side-up <ExternalLinkIcon mx="2px" />
+               github.com/Vector-Software-Engineering/sunny-side-up <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>
           <ListItem>

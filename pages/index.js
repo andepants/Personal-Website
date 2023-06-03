@@ -53,7 +53,7 @@ const Page = () => {
             />
           </Box>
         </Box>
-        <Section delay={0.2}>
+        <Section delay={0.1}>
           <Heading as="h3" variant="section-title">
             Work
           </Heading>
@@ -94,7 +94,7 @@ const Page = () => {
             In search of a software engineering job. Send Help.
           </BioSection>
         </Section>*/}
-        <Section delay={0.4}>
+        <Section delay={0.2}>
           <Heading>
             Technical Skills
           </Heading>
@@ -104,7 +104,7 @@ const Page = () => {
             <ListItem><u>Testing/Deployment:</u> Jest, Mocha, Chai, Vercel, AWS: EC2, Artillery, Loader.io</ListItem>
           </UnorderedList>
         </Section>
-        <Section delay={0.4}>
+        <Section delay={0.3}>
           <Heading as="h3" variant="section-title">
             I ♥
           </Heading>
@@ -112,7 +112,7 @@ const Page = () => {
             Rollerblading, Juggling, Slacklining, Board Games, Reading, Soccer, Tennis, Skiing, Calisthenics, Climbing, Science
           </Paragraph>
         </Section>
-        <Section delay={0.6}>
+        <Section delay={0.4}>
           <Heading as="h3" variant="section-title">
             On the Web
           </Heading>
