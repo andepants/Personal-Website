@@ -18,7 +18,7 @@ const Work = () => {
           <ListItem>
             <Meta>Website</Meta>
             <Link href='https://www.giftgenerator.xyz/'>
-              https://www.giftgenerator.xyz/ <ExternalLinkIcon mx="2px" />
+              giftgenerator.xyz<ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>
           <ListItem>

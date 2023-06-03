@@ -18,7 +18,7 @@ const Work = () => {
           <ListItem>
             <Meta>Website</Meta>
             <Link href='https://food-truck-map-mocha.vercel.app/'>
-              https://food-truck-map-mocha.vercel.app/ <ExternalLinkIcon mx="2px" />
+              food-truck-map-mocha.vercel.app<ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>
           <ListItem>

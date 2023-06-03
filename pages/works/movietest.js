@@ -6,28 +6,28 @@ import Layout from '../../components/layouts/article'
 
 const Work = () => {
   return (
-    <Layout title="PAGER">
+    <Layout title="Movie Personality Test">
       <Container>
         <Title>
-          PAGER <Badge>2023</Badge>
+          Movie Personality Test<Badge>2023</Badge>
         </Title>
         <P>
-        Full Stack social media networking app for Ravers to create groups, swipe, join, and chat.
+          Receive Movie Recommendations Based on your Personality!
         </P>
         <List ml={4} my={4}>
           <ListItem>
             <Meta>Website</Meta>
-            <Link href='https://github.com/BO-Phoenix/PAGER'>
-              github.com/BO-Phoenix/PAGER <ExternalLinkIcon mx="2px" />
+            <Link href='https://www.moviepersonalitytest.com/'>
+              moviepersonalitytest.com <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>
           <ListItem>
             <Meta>Platform</Meta>
-            <span>IOS/Android</span>
+            <span>Website</span>
           </ListItem>
           <ListItem>
             <Meta>Stack</Meta>
-            <span>React Native, Redux, JavaScript, Firebase</span>
+            <span>JavaScript, NextJs, TailwindCSS, OpenAI_API, TMBD_API </span>
           </ListItem>
         </List>
       </Container>
