@@ -10,6 +10,7 @@ import foodTruckThumbnail from '../public/images/works/foodtruck.jpg'
 import portfolioThumbnail from '../public/images/works/portfolio.jpg'
 import movieTestThumbnail from '../public/images/works/movietest.jpg'
 import carbonThumbnail from '../public/images/works/carbon.jpg'
+import memoryGameThumbnail from '../public/images/works/memorygame.jpg'
 
 const Works = () => {
   return (
@@ -20,6 +21,11 @@ const Works = () => {
         </Heading>
 
         <SimpleGrid columns={[1,1,2]} gap={6}>
+          <Section>
+            <WorkGridItem id="memorygame" title="2-Player Memory Game" thumbnail={memoryGameThumbnail}>
+              2-Player Memory Game
+            </WorkGridItem>
+          </Section>
           <Section>
             <WorkGridItem id="giftgenerator" title="AI Gift Generator" thumbnail={giftThumbail}>
               AI Gift Idea Generator w/ ChatGPT API
