@@ -6,19 +6,19 @@ import Layout from '../../components/layouts/article'
 
 const Work = () => {
   return (
-    <Layout title="Carbon Footprint Calculator">
+    <Layout title="2-Player Memory Game">
       <Container>
         <Title>
-          Carbon Footprint Calculator<Badge>2023</Badge>
+          2-Player Memory Game<Badge>2023</Badge>
         </Title>
         <P>
-          Calculate your carbon footprint and learn how to reduce it.
+          A 2-player memory game matching cards with the same image. The player with the most matches wins.
         </P>
         <List ml={4} my={4}>
           <ListItem>
             <Meta>Website</Meta>
-            <Link href='https://carbon-footprint-calculator-sigma.vercel.app/'>
-               carbon-footprint-calculator-sigma.vercel.app <ExternalLinkIcon mx="2px" />
+            <Link href='https://two-player-memory-game.web.app/'>
+              two-player-memory-game.web.app <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>
           <ListItem>
@@ -27,7 +27,7 @@ const Work = () => {
           </ListItem>
           <ListItem>
             <Meta>Stack</Meta>
-            <span>JavaScript, NextJs, TailwindCSS, React-ChartJS-2</span>
+            <span>TypeScript, Angular, SASS</span>
           </ListItem>
         </List>
       </Container>
