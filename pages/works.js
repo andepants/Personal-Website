@@ -11,6 +11,7 @@ import portfolioThumbnail from '../public/images/works/portfolio.jpg'
 import movieTestThumbnail from '../public/images/works/movietest.jpg'
 import carbonThumbnail from '../public/images/works/carbon.jpg'
 import memoryGameThumbnail from '../public/images/works/memorygame.jpg'
+import questifyThumbnail from '../public/images/works/questify.jpg'
 
 const Works = () => {
   return (
@@ -22,8 +23,13 @@ const Works = () => {
 
         <SimpleGrid columns={[1,1,2]} gap={6}>
           <Section>
+            <WorkGridItem id="questify" title="Questify AI" thumbnail={questifyThumbnail}>
+              A Choose Your Own Adventure Game w/ GPT-4 API
+            </WorkGridItem>
+          </Section>
+          <Section>
             <WorkGridItem id="memorygame" title="2-Player Memory Game" thumbnail={memoryGameThumbnail}>
-              2-Player Memory Game
+              A Matching Card Game
             </WorkGridItem>
           </Section>
           <Section>
@@ -33,17 +39,17 @@ const Works = () => {
           </Section>
           <Section>
             <WorkGridItem id="carbon" title="Carbon Footprint Calculator" thumbnail={carbonThumbnail}>
-              Carbon Footprint Calculator
+              Calculates Your Carbon Footprint
             </WorkGridItem>
           </Section>
           <Section>
             <WorkGridItem id="movietest" title="Movie Personality Test" thumbnail={movieTestThumbnail}>
-              Movie Personality Test
+              Recommends Movies Based on Personality
             </WorkGridItem>
           </Section>
           <Section>
             <WorkGridItem id="portfolio" title="Portfolio Calculator" thumbnail={portfolioThumbnail}>
-              Portfolio Calculator for Stocks
+              Calculates your Stock Portfolio Value
             </WorkGridItem>
           </Section>
           <Section>
