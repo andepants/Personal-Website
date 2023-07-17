@@ -68,7 +68,7 @@ const Page = () => {
           <Box align="center" my={4}>
             <Link href="/works" >
               <Button rightIcon={<ChevronRightIcon />} colorScheme="teal" bg={useColorModeValue('#6B46C1', '#FBD28D')}>
-                My Portfolio
+                My Projects
               </Button>
             </Link>
           </Box>

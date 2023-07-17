@@ -60,7 +60,7 @@ const Navbar = props => {
           mt={{ base: 4, nmd:0 }}
         >
           <LinkItem href="/works" path={path}>
-            Works
+            Projects
           </LinkItem>
           {/*<LinkItem href="/posts" path={path}>
             Posts
@@ -74,7 +74,7 @@ const Navbar = props => {
               <MenuButton as={IconButton} icon={<HamburgerIcon/>}  variant="outline" aria-label="Options" />
               <MenuList>
                 <MenuItem as={Link} href="/">About</MenuItem>
-                <MenuItem as={Link} href="/works">Works</MenuItem>
+                <MenuItem as={Link} href="/works">Projects</MenuItem>
                 {/*<MenuItem as={Link} href="/Posts">Posts</MenuItem>*/}
               </MenuList>
             </Menu>
