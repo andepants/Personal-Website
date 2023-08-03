@@ -26,7 +26,7 @@ const Page = () => {
     <Layout>
       <Container>
         <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={3} mb={6} align="center">
-          Hello, I&apos;m a full-stack developer based in Denver!
+          Hello, I&apos;m a full-stack developer based in San Francisco!
         </Box>
         <Box display={{ md: 'flex'}}>
           <Box flexGrow={1}>
@@ -59,7 +59,7 @@ const Page = () => {
           </Heading>
           <Paragraph>
             What&lsquo;s Good!
-            My name is Andrew and I&lsquo;m excited to share a bit about myself and my journey as a software engineer. Currently based in Denver, Colorado.
+            My name is Andrew and I&lsquo;m excited to share a bit about myself and my journey as a software engineer. Currently based in San Francisco, California.
             <br/><br/>
             I&lsquo;m also currently working on an exciting project: an AI Gift Idea Generator This lets users type in interests/hobbies and it generates a list of gift ideas based on the user&lsquo;s input.
             <br/><br/>
